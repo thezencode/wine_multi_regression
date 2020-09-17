@@ -17,6 +17,7 @@ def quality_pair_plot(red_wine, attributes):
                  aspect=2)
 
     plt.tight_layout()
+    plt.savefig('wine_data_quality_pair_plot.png')
 
 
 def quality_vs_acids(red_wine):
