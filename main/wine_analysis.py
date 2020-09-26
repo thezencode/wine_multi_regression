@@ -28,8 +28,8 @@ train_set, test_set = train_test_split(red_wine, test_size=0.2, random_state=42)
 #####################################################
 
 # Check correlations
-corr_matrix_red = red_wine.corr()
-print(corr_matrix_red['quality'].sort_values(ascending=False))
+# corr_matrix_red = red_wine.corr()
+# print(corr_matrix_red['quality'].sort_values(ascending=False))
 
 # plot correlations
 # plt.figure(figsize=(8, 8))
@@ -40,6 +40,8 @@ print(corr_matrix_red['quality'].sort_values(ascending=False))
 
 # quality_pair_plot(red_wine, ['quality', 'alcohol', 'sulphates', 'citric acid', 'fixed acidity'])
 ###################################################
+
+
 
 
  
